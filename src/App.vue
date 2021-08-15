@@ -4,7 +4,7 @@
   <router-view/>
   </section>
 </template>
-<script type="text/javascript">
+<script>
 import Header from '@/views/partial/Header.vue'
   export default {
     name: 'App',
@@ -15,7 +15,7 @@ import Header from '@/views/partial/Header.vue'
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; 
   color: #2c3e50;
 }
 
